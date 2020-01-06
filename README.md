@@ -47,4 +47,4 @@ fisher add slaypni/poll
 System Requirements
 ---
 
-- [fish](https://github.com/fishshell) 2.7+
+- [fish](https://github.com/fish-shell/fish-shell) 2.7+
