@@ -9,7 +9,7 @@ Usage
 ---
 
 ```sh
-poll [-n COUNTS] [-s SECONDS] IN OUT
+poll [-e] [-n COUNTS] [-s SECONDS] IN OUT
 ```
 
 Example
