@@ -1,14 +1,14 @@
 function poll
     function __print_help
         printf "Usage:\n"
-        printf "    poll [-e] [-n COUNTS] [-s SECONDS] IN OUT\n\n"
+        printf "    poll [-e] [-n COUNTS] [-s SECONDS] [-h] IN OUT\n\n"
         printf "Example:\n"
         printf "    poll -s 60 'cat /path/to/watch' 'beep -f 100 -l 500'\n\n"
         printf "Args:\n"
         printf "    <IN>                     Command to be run for polling\n"
         printf "    <OUT>                    Command to be run when the output of the polling was changed\n\n"
         printf "Options:\n"
-        printf "    -e, --exit               Quit when the output of the polling was changed\n"
+        printf "    -e, --exit               Quit after triggering OUT command\n"
         printf "    -n, --num <COUNTS>       Max number of attempts for polling\n"
         printf "    -s, --sleep <SECONDS>    Interval between polling\n"
         printf "    -h, --help               Print this help\n"

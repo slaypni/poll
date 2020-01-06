@@ -9,7 +9,21 @@ Usage
 ---
 
 ```sh
-poll [-e] [-n COUNTS] [-s SECONDS] IN OUT
+poll [-e] [-n COUNTS] [-s SECONDS] [-h] IN OUT
+```
+
+### Args
+```
+<IN>                     Command to be run for polling
+<OUT>                    Command to be run when the output of the polling was changed
+```
+
+### Options
+```
+-e, --exit               Quit after triggering OUT command
+-n, --num <COUNTS>       Max number of attempts for polling
+-s, --sleep <SECONDS>    Interval between polling
+-h, --help               Print help
 ```
 
 Example
